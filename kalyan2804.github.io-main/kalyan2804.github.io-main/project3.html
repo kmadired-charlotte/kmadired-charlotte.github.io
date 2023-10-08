@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 3</title>
+    <style>
+        /* Styling for the page body */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #333; /* Dark background color */
+            color: #fff; /* Text color for the page */
+            margin: 0;
+            padding: 0;
+            text-align: center; /* Center-align text */
+            position: relative; /* Make the body relative for absolute positioning */
+        }
+
+        /* Styling for the project title */
+        h1 {
+            padding: 20px; /* Add padding for spacing */
+        }
+
+        /* Styling for the project image */
+        .project-image {
+            display: block;
+            margin: 0 auto;
+            width: 30%; /* Adjust the width as needed */
+            height: auto; /* Maintain image aspect ratio */
+        }
+
+        /* Styling for the logos section */
+        .logos {
+            position: relative; /* Make the container relative for absolute positioning */
+        }
+
+        /* GitHub logo styling */
+        .github-logo {
+            width: 60px; /* Adjust the size as needed */
+            fill: #fff; /* Color for the GitHub logo */
+            position: absolute; /* Position the logo absolutely */
+            top: -275px; /* Adjust the top position as needed */
+            right: 60px; /* Adjust the right position as needed */
+        }
+
+        /* Styling for the "Source Code" text */
+        .source-code-text {
+            color: #fff; /* Text color for "Source Code" */
+            font-size: 18px; /* Adjust the font size as needed */
+            position: absolute; /* Position the text absolutely */
+            top: -200px; /* Adjust the top position as needed */
+            right: 40px; /* Adjust the right position as needed */
+        }
+
+        /* Project description styling */
+        .project-description {
+            text-align: left; /* Align text to the left */
+            margin: 20px;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent white background */
+            border-radius: 10px; /* Add rounded corners */
+            max-width: 1600px; /* Limit the maximum width of the description */
+            max-height: 2000px;
+            overflow: auto; /* Add scrolling if content exceeds the available space */
+        }
+
+        /* Style for list items */
+        .project-description ul {
+            list-style-type: disc;
+            margin-left: 20px;
+        }
+
+        /* Style for list item text */
+        .project-description li {
+            display: flex;
+            margin-bottom: 10px;
+        }
+
+        /* CSS for the footer section */
+        footer {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            background-color: #333; /* Background color for the footer */
+            padding: 20px 0; /* Add padding for spacing */
+            text-align: center;
+            color: #fff; /* Text color for the footer */
+        }
+
+        /* CSS for the buttons within the footer */
+        .buttons {
+            margin: auto;
+            display: flex;
+            justify-content: center;
+            gap: 20px; /* Adjust the gap between buttons as needed */
+        }
+
+        /* Styling for the "Take Me Back" button */
+        .take-me-back-button {
+            background-color: #ff0f0f; /* Button background color */
+            color: #fff; /* Button text color */
+            padding: 10px 20px; /* Adjust padding as needed */
+            text-decoration: none; /* Remove underlines from links */
+            border-radius: 5px; /* Add rounded corners */
+        }
+
+        /* Styling for the "Hire Me" button */
+        .hire-me-button {
+            background-color: #ff0f0f; /* Button background color */
+            color: #fff; /* Button text color */
+            padding: 10px 20px; /* Adjust padding as needed */
+            text-decoration: none; /* Remove underlines from links */
+            border-radius: 5px; /* Add rounded corners */
+        }
+    </style>
+<link rel="stylesheet" href="assets/css/main.css" />
+</head>
+<body>
+    <!-- Project title -->
+    <h1> CORAL REEF DETECTION AND ANALYSIS </h1>
+
+    <!-- Project image -->
+    <!-- Project video (replace with your YouTube video URL) -->
+ 
+    
+    <img class="project-image" src="assets/img/proj_3.png" alt="Project 3 Image" />
+    
+
+    <!-- Logos section -->
+    <div class="logos">
+        <!-- GitHub logo using SVG code wrapped in a link -->
+        <a href="https://github.com/kalyan2804/CORAL-REEF-DETECTION_2.git">
+            <svg class="github-logo" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 48 48">
+                <path d="M44,24c0,8.96-5.88,16.54-14,19.08V38c0-1.71-0.72-3.24-1.86-4.34c5.24-0.95,7.86-4.00,7.86-9.66c0-2.45-0.50-4.39-1.48-5.90 c0.44-1.71,0.70-4.14-0.52-6.10c-2.36,0-4.01,1.39-4.98,2.53C27.57,14.18,25.90,14,24,14c-1.80,0-3.46,0.20-4.94,0.61 C18.10,13.46,16.42,12,14,12c-1.42,2.28-0.84,4.74-0.30,6.12C12.62,19.63,12,21.57,12,24c0,5.66,2.62,8.71,7.86,9.66 c-0.67,0.65-1.19,1.44-1.51,2.34H16c-1.44,0-2-0.64-2.77-1.68c-0.77-1.04-1.60-1.74-2.59-2.03c-0.53-0.06-0.89,0.37-0.42,0.75 c1.57,1.13,1.68,2.98,2.31,4.19C13.10,38.32,14.28,39,15.61,39H18v4.08C9.88,40.54,4,32.96,4,24C4,12.95,12.95,4,24,4 S44,12.95,44,24z"></path>
+            </svg>
+        </a>
+
+        <!-- "Source Code" text wrapped in a link -->
+        <a href="https://github.com/kalyan2804/CORAL-REEF-DETECTION_2.git">
+            <p class="source-code-text">Source Code</p>
+        </a>
+    </div>
+
+    <!-- Project description -->
+    <div class="project-description">
+        <ul>
+            <li>Developed robust U-Net architecture-based classification models for accurate coral identification.</li>
+            <li>Engineered semantic segmentation models to generate precise coral masks.</li>
+            <li>Pioneered classification models using Vision Transformers, achieving exceptional accuracy.</li>
+            <li>Utilized YOLO v5 for object detection, enabling precise identification of coral types.</li>
+            <li>Implemented Watershed algorithm for efficient coral count estimation.</li>
+            <li>Streamlined data processing pipeline by patching mosaic images into 256x256 patches.</li>
+            <li>Applied pixel segmentation for refined masks, enabling clear classification distinctions.</li>
+            <li>Leveraged U-Net architecture with resnet34 backbone for optimal image feature extraction.</li>
+            <li>Utilized visual transformers for revolutionary image classification, exploiting positional embeddings.</li>
+            <li>Expertly harnessed YOLO v5 for object detection with multi-layered architecture and self-attention blocks.</li>
+            <li>Attained accuracy of 90.12% for U-Net classification model, enhanced to 99.7% considering detected corals.</li>
+            <li>Achieved a mean IoU of 0.73 with semantic segmentation for accurate coral mask generation.</li>
+            <li>Demonstrated feasibility of consistent coral measurements with auto-generated mask mosaics.</li>
+            <li>Optimized YOLO object detection performance, with precision and recall scores of 0.78 and 0.81.</li>
+            <li>Utilized Watershed algorithm for coral counting with an impressive 30% approximation accuracy.</li>
+            <li>Collaborated seamlessly within a dedicated team to ensure accurate implementation.</li>
+            <li>.</li>
+            <li>.</li>
+        </ul>
+        
+    </div>
+    
+    <!-- Footer section -->
+    <footer>
+        <!-- Buttons section in the footer -->
+        <div class="buttons">
+            <!-- "Take Me Back" button with a link -->
+            <a href="index.html" class="take-me-back-button">Take Me Back</a>
+            <!-- "Hire Me" button with a link -->
+            <script src="assets/js/functions-min.js"></script>
+            <script src="assets/js/functions.js"></script>
+        </div>
+    </footer>
+   
+</body>
+</html>

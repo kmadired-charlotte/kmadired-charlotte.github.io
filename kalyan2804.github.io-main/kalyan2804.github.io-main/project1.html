@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 1</title>
+    <style>
+        /* Styling for the page body */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #333; /* Dark background color */
+            color: #fff; /* Text color for the page */
+            margin: 0;
+            padding: 0;
+            text-align: center; /* Center-align text */
+            position: relative; /* Make the body relative for absolute positioning */
+        }
+
+        /* Styling for the project title */
+        h1 {
+            padding: 20px; /* Add padding for spacing */
+        }
+
+        /* Styling for the project image */
+        .project-image {
+            display: block;
+            margin: 0 auto;
+            width: 50%; /* Adjust the width as needed */
+            height: auto; /* Maintain image aspect ratio */
+        }
+
+        /* Styling for the logos section */
+        .logos {
+            position: relative; /* Make the container relative for absolute positioning */
+        }
+
+        /* GitHub logo styling */
+        .github-logo {
+            width: 60px; /* Adjust the size as needed */
+            fill: #fff; /* Color for the GitHub logo */
+            position: absolute; /* Position the logo absolutely */
+            top: -275px; /* Adjust the top position as needed */
+            right: 60px; /* Adjust the right position as needed */
+        }
+
+        /* Styling for the "Source Code" text */
+        .source-code-text {
+            color: #fff; /* Text color for "Source Code" */
+            font-size: 18px; /* Adjust the font size as needed */
+            position: absolute; /* Position the text absolutely */
+            top: -200px; /* Adjust the top position as needed */
+            right: 40px; /* Adjust the right position as needed */
+        }
+
+        /* Project description styling */
+        .project-description {
+            text-align: left; /* Align text to the left */
+            margin: 20px;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent white background */
+            border-radius: 10px; /* Add rounded corners */
+            max-width: 1600px; /* Limit the maximum width of the description */
+            max-height: 2000px;
+            overflow: auto; /* Add scrolling if content exceeds the available space */
+        }
+
+        /* Style for list items */
+        .project-description ul {
+            list-style-type: disc;
+            margin-left: 20px;
+        }
+
+        /* Style for list item text */
+        .project-description li {
+            display: flex;
+            margin-bottom: 10px;
+        }
+
+        /* CSS for the footer section */
+        footer {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            background-color: #333; /* Background color for the footer */
+            padding: 20px 0; /* Add padding for spacing */
+            text-align: center;
+            color: #fff; /* Text color for the footer */
+        }
+
+        /* CSS for the buttons within the footer */
+        .buttons {
+            margin: auto;
+            display: flex;
+            justify-content: center;
+            gap: 20px; /* Adjust the gap between buttons as needed */
+        }
+
+        /* Styling for the "Take Me Back" button */
+        .take-me-back-button {
+            background-color: #ff0f0f; /* Button background color */
+            color: #fff; /* Button text color */
+            padding: 10px 20px; /* Adjust padding as needed */
+            text-decoration: none; /* Remove underlines from links */
+            border-radius: 5px; /* Add rounded corners */
+        }
+
+        /* Styling for the "Hire Me" button */
+        .hire-me-button {
+            background-color: #ff0f0f; /* Button background color */
+            color: #fff; /* Button text color */
+            padding: 10px 20px; /* Adjust padding as needed */
+            text-decoration: none; /* Remove underlines from links */
+            border-radius: 5px; /* Add rounded corners */
+        }
+    </style>
+<link rel="stylesheet" href="assets/css/main.css" />
+</head>
+<body>
+    <!-- Project title -->
+    <h1> LOSS RATIO PREDICTION FOR INSURANCE PORTFOLIOS </h1>
+
+    <!-- Project image -->
+    <!-- Project video (replace with your YouTube video URL) -->
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/CAbYHShhV4Y?si=UfD3V8SKmWjzH60w" frameborder="0" allowfullscreen></iframe>
+    <!-- 
+        <img class="project-image" src="assets/img/project_1_image.png" alt="Project 1 Image" />
+    --> 
+
+    <!-- Logos section -->
+    <div class="logos">
+        <!-- GitHub logo using SVG code wrapped in a link -->
+        <a href="https://github.com/kalyan2804/Insurance_Loss_Ratio_Prediction.git">
+            <svg class="github-logo" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 48 48">
+                <path d="M44,24c0,8.96-5.88,16.54-14,19.08V38c0-1.71-0.72-3.24-1.86-4.34c5.24-0.95,7.86-4.00,7.86-9.66c0-2.45-0.50-4.39-1.48-5.90 c0.44-1.71,0.70-4.14-0.52-6.10c-2.36,0-4.01,1.39-4.98,2.53C27.57,14.18,25.90,14,24,14c-1.80,0-3.46,0.20-4.94,0.61 C18.10,13.46,16.42,12,14,12c-1.42,2.28-0.84,4.74-0.30,6.12C12.62,19.63,12,21.57,12,24c0,5.66,2.62,8.71,7.86,9.66 c-0.67,0.65-1.19,1.44-1.51,2.34H16c-1.44,0-2-0.64-2.77-1.68c-0.77-1.04-1.60-1.74-2.59-2.03c-0.53-0.06-0.89,0.37-0.42,0.75 c1.57,1.13,1.68,2.98,2.31,4.19C13.10,38.32,14.28,39,15.61,39H18v4.08C9.88,40.54,4,32.96,4,24C4,12.95,12.95,4,24,4 S44,12.95,44,24z"></path>
+            </svg>
+        </a>
+
+        <!-- "Source Code" text wrapped in a link -->
+        <a href="https://github.com/kalyan2804/Insurance_Loss_Ratio_Prediction.git">
+            <p class="source-code-text">Source Code</p>
+        </a>
+    </div>
+
+    <!-- Project description -->
+    <div class="project-description">
+        <ul>
+            <li>
+                Led Profitability Assessment Initiative: Pioneered an insurance loss ratio project to gauge company profitability by computing incurred losses to earned premiums ratio.
+            </li>
+            <li>
+                Achieved 15% Pricing Strategy Enhancement: Successfully implemented the loss ratio initiative, resulting in a substantial 15% improvement in the pricing strategy, fine-tuning financial approaches.
+            </li>
+            <li>
+                Utilized Data Analytics for Informed Decisions: Applied data analytics to analyze historical trends and outliers, facilitating well-informed decision-making processes.
+            </li>
+            <li>
+                Engineered Data-Driven Insights: Engineered data-driven insights to refine pricing strategies, yielding streamlined profitability.
+            </li>
+            <li>
+                Visualized Insights for Enhanced Profitability: Skillfully visualized data-driven insights, empowering insurers with actionable recommendations that significantly reduced insurance costs for customers by around 10%, compared to their previous plans.
+            </li>
+            <li>
+                Executed Comprehensive Data Analysis: Executed in-depth data analysis by leveraging the provided training dataset with various attributes like Annual Premium, Claim Count, and Loss Amount.
+            </li>
+            <li>
+                Developed Effective Pricing Models: Developed effective pricing models using a multi-faceted approach, including leveraging training portfolios and engineering features based on policy attributes.
+            </li>
+            <li>
+                Enhanced Model Training: Enhanced the training process by creating features that encapsulate portfolio data, leading to a comprehensive understanding of factors influencing loss ratios.
+            </li>
+            <li>
+                Applied Machine Learning for Predictive Insights: Applied machine learning techniques to predict natural logarithms of portfolio loss ratios for the testing dataset, demonstrating advanced predictive capabilities.
+            </li>
+            <li>
+                Contributed to Industry Competition: Participated in the Kaggle competition, submitting accurate predictions of ln_LR to further advance industry practices.
+            </li>
+            .
+            <li>
+            </li>
+            .
+            <li>
+            </li>
+            .
+            <li>
+            </li>
+        </ul>
+    </div>
+    
+    <!-- Footer section -->
+    <footer>
+        <!-- Buttons section in the footer -->
+        <div class="buttons">
+            <!-- "Take Me Back" button with a link -->
+            <a href="index.html" class="take-me-back-button">Take Me Back</a>
+            <!-- "Hire Me" button with a link -->
+            <script src="assets/js/functions-min.js"></script>
+            <script src="assets/js/functions.js"></script>
+        </div>
+    </footer>
+   
+</body>
+</html>
